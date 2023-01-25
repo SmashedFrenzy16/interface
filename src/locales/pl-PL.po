@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-01-16 17:04\n"
+"PO-Revision-Date: 2023-01-20 23:04\n"
 "Last-Translator: \n"
 "Language: pl_PL\n"
 "Language-Team: Polish\n"
@@ -115,10 +115,6 @@ msgstr "<0>Wskazówka:</0> Kiedy dodasz płynność, otrzymasz tokeny puli repre
 #: src/pages/Vote/VotePage.tsx
 msgid "<0>Unlock voting</0> to prepare for the next proposal."
 msgstr "<0>Odblokuj głos</0> aby przygotować się do następnej propozycji."
-
-#: src/components/MetaMaskConnectionErrorModal/index.tsx
-msgid "A MetaMask error caused your wallet to disconnect. Reload the page to reconnect."
-msgstr ""
 
 #: src/pages/Vote/Landing.tsx
 msgid "A minimum threshold of 0.25% of the total UNI supply is required to submit proposals"
@@ -248,10 +244,6 @@ msgstr "Podczas ładowania tokenów wystąpił błąd. Proszę spróbuj ponownie
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
 msgstr "Wystąpił błąd podczas próby wykonania tej wymiany. Może być konieczne zwiększenie tolerancji na poślizg. Jeśli to nie zadziała, może występować niezgodność z tokenem, którym handlujesz. Uwaga: opłata za transfer i rebase tokeny są niezgodne z Uniswap V3."
-
-#: src/pages/Swap/index.tsx
-msgid "Approval failed. Try again."
-msgstr ""
 
 #: src/pages/Swap/index.tsx
 msgid "Approval pending"
@@ -385,10 +377,6 @@ msgstr "Ostrożność"
 #: src/components/AccountDetails/index.tsx
 msgid "Change"
 msgstr "Zmiana"
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "Check network status"
-msgstr "Sprawdź stan sieci"
 
 #: src/pages/Pool/CTACards.tsx
 msgid "Check out our v3 LP walkthrough and migration guides."
@@ -1202,10 +1190,6 @@ msgstr "Nie znaleziono nazwy"
 msgid "Network Fee"
 msgstr "Opłata sieciowa"
 
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "Network Warning"
-msgstr "Ostrzeżenie sieciowe"
-
 #: src/pages/Pool/index.tsx
 msgid "New Position"
 msgstr "Nowa pozycja"
@@ -1505,10 +1489,6 @@ msgstr "Ostatnie wyszukiwania"
 msgid "Recipient"
 msgstr "Odbiorca"
 
-#: src/components/MetaMaskConnectionErrorModal/index.tsx
-msgid "Reload"
-msgstr ""
-
 #: src/components/ErrorBoundary/index.tsx
 msgid "Reload the app"
 msgstr ""
@@ -1585,6 +1565,7 @@ msgstr "Wybierz parę"
 
 #: src/components/CurrencyInputPanel/index.tsx
 #: src/components/SearchModal/CurrencySearch.tsx
+#: src/nft/components/bag/tokenSelector/BagTokenSelectorModal.tsx
 #: src/pages/PoolFinder/index.tsx
 #: src/pages/PoolFinder/index.tsx
 #: src/state/swap/hooks.tsx
@@ -1829,10 +1810,6 @@ msgstr "Aplikacja bezpiecznie gromadzi Twój adres portfela i udostępnia go TRM
 msgid "The connection attempt failed. Please click try again and follow the steps to connect in your wallet."
 msgstr "Próba połączenia nie powiodła się. Kliknij spróbuj ponownie i postępuj zgodnie z instrukcjami, aby połączyć się w swoim portfelu."
 
-#: src/components/Polling/index.tsx
-msgid "The current fast gas amount for sending a transaction on L1. Gas fees are paid in Ethereum's native currency Ether (ETH) and denominated in GWEI."
-msgstr "Aktualna ilość gazu szybkiego do wysłania transakcji na L1. Opłaty za gaz są uiszczane w rodzimej walucie Ethereum Ether (ETH) i denominowane w GWEI."
-
 #: src/components/CurrencyInputPanel/FiatValue.tsx
 msgid "The estimated difference between the USD values of input and output amounts."
 msgstr "Szacowana różnica między wartościami USD kwot wejściowych i wyjściowych."
@@ -1857,10 +1834,6 @@ msgstr "Cena rynkowa znajduje się poza Twoim zakresem cenowym. Tylko depozyt po
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "The minimum amount you are guaranteed to receive. If the price slips any further, your transaction will revert."
 msgstr "Minimalna kwota, którą gwarantujesz, że otrzymasz. Jeśli cena spadnie dalej, Twoja transakcja zostanie cofnięta."
-
-#: src/components/Polling/index.tsx
-msgid "The most recent block number on this network. Prices update on every block."
-msgstr "Najnowszy numer bloku w tej sieci. Aktualizacja cen na każdym bloku."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "The output token cannot be transferred. There may be an issue with the output token."
@@ -2088,10 +2061,6 @@ msgstr ""
 msgid "Uniswap migration contract↗"
 msgstr "Umowa o migracji Uniswap↗"
 
-#: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Nieznany błąd{0}. Spróbuj zwiększyć swoją tolerancję na poślizg. Uwaga: opłata za transfer i rebase tokeny są niezgodne z Uniswap V3."
-
 #: src/pages/Vote/Landing.tsx
 #: src/pages/Vote/VotePage.tsx
 msgid "Unlock Votes"
@@ -2267,10 +2236,6 @@ msgstr "Czekam na połączenie"
 msgid "Wallet Address or ENS name"
 msgstr "Adres portfela lub nazwa ENS"
 
-#: src/components/MetaMaskConnectionErrorModal/index.tsx
-msgid "Wallet disconnected"
-msgstr ""
-
 #: src/constants/tokenSafety.tsx
 msgid "Warning"
 msgstr "Ostrzeżenie"
@@ -2335,10 +2300,6 @@ msgstr "Nie masz wystarczającej liczby głosów, aby przesłać propozycję"
 #: src/pages/PoolFinder/index.tsx
 msgid "You don’t have liquidity in this pool yet."
 msgstr "Nie masz jeszcze płynności w tej puli."
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "You may have lost your network connection."
-msgstr "Możliwe, że utraciłeś połączenie sieciowe."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."
@@ -2423,6 +2384,8 @@ msgstr "Twoja pozycja nie będzie zarabiana ani nie będzie używana w transakcj
 msgid "Your positions"
 msgstr "Twoje pozycje"
 
+#: src/hooks/useUniversalRouter.ts
+#: src/hooks/useUniversalRouter.ts
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 msgid "Your swap was modified through your wallet. If this was a mistake, please cancel immediately or risk losing your funds."
@@ -2499,14 +2462,6 @@ msgstr "dla"
 #: src/components/claim/AddressClaimModal.tsx
 msgid "for {0}"
 msgstr "dla {0}"
-
-#: src/components/Polling/index.tsx
-msgid "gwei"
-msgstr "gwei"
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "here."
-msgstr "tutaj."
 
 #: src/components/TransactionSettings/index.tsx
 msgid "minutes"
@@ -2616,6 +2571,11 @@ msgstr "{0}% puli"
 msgid "{0}% select"
 msgstr "{0}% wybierz"
 
+#: src/utils/swapErrorToUserReadableMessage.tsx
+msgid "{0}. Try increasing your slippage tolerance.\n"
+"Note: fee-on-transfer and rebase tokens are incompatible with Uniswap V3."
+msgstr ""
+
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "{0}/{1} LP NFT"
 msgstr "{0}/{1} LP NFT"
@@ -2623,10 +2583,6 @@ msgstr "{0}/{1} LP NFT"
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "{0}/{1} LP Tokens"
 msgstr "{0}/{1} Żetony LP"
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "{label} might be down right now, or you may have lost your network connection."
-msgstr "{label} może być w tej chwili nieaktywne lub możesz utracić połączenie sieciowe."
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
 msgid "{label} token bridge"

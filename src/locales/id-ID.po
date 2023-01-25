@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-01-16 17:04\n"
+"PO-Revision-Date: 2023-01-20 23:04\n"
 "Last-Translator: \n"
 "Language: id_ID\n"
 "Language-Team: Indonesian\n"
@@ -115,10 +115,6 @@ msgstr "<0>Kiat:</0> Saat menambahkan likuiditas, Anda akan menerima token pool 
 #: src/pages/Vote/VotePage.tsx
 msgid "<0>Unlock voting</0> to prepare for the next proposal."
 msgstr "<0>Buka voting</0> untuk mempersiapkan usulan berikutnya."
-
-#: src/components/MetaMaskConnectionErrorModal/index.tsx
-msgid "A MetaMask error caused your wallet to disconnect. Reload the page to reconnect."
-msgstr ""
 
 #: src/pages/Vote/Landing.tsx
 msgid "A minimum threshold of 0.25% of the total UNI supply is required to submit proposals"
@@ -248,10 +244,6 @@ msgstr "Terjadi kesalahan saat memuat token. Silakan coba lagi."
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
 msgstr "Terjadi kesalahan saat mengeksekusi swap ini. Anda mungkin memerlukan peningkatan toleransi slip Anda. Jika tidak berhasil, kemungkinan token yang anda perdagangkan tidak cocok. Catatan: biaya transfer token rebase tidak cocok dengan Uniswap V3."
-
-#: src/pages/Swap/index.tsx
-msgid "Approval failed. Try again."
-msgstr ""
 
 #: src/pages/Swap/index.tsx
 msgid "Approval pending"
@@ -385,10 +377,6 @@ msgstr "Peringatan"
 #: src/components/AccountDetails/index.tsx
 msgid "Change"
 msgstr "Perubahan"
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "Check network status"
-msgstr "Periksa status jaringan"
 
 #: src/pages/Pool/CTACards.tsx
 msgid "Check out our v3 LP walkthrough and migration guides."
@@ -1202,10 +1190,6 @@ msgstr "Nama tidak ditemukan"
 msgid "Network Fee"
 msgstr "Biaya Jaringan"
 
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "Network Warning"
-msgstr "Peringatan Jaringan"
-
 #: src/pages/Pool/index.tsx
 msgid "New Position"
 msgstr "Posisi baru"
@@ -1505,10 +1489,6 @@ msgstr "Pencarian terkini"
 msgid "Recipient"
 msgstr "Penerima"
 
-#: src/components/MetaMaskConnectionErrorModal/index.tsx
-msgid "Reload"
-msgstr ""
-
 #: src/components/ErrorBoundary/index.tsx
 msgid "Reload the app"
 msgstr ""
@@ -1585,6 +1565,7 @@ msgstr "Pilih Pasangan"
 
 #: src/components/CurrencyInputPanel/index.tsx
 #: src/components/SearchModal/CurrencySearch.tsx
+#: src/nft/components/bag/tokenSelector/BagTokenSelectorModal.tsx
 #: src/pages/PoolFinder/index.tsx
 #: src/pages/PoolFinder/index.tsx
 #: src/state/swap/hooks.tsx
@@ -1829,10 +1810,6 @@ msgstr "Aplikasi ini dengan aman mengumpulkan alamat dompet Anda dan membagikann
 msgid "The connection attempt failed. Please click try again and follow the steps to connect in your wallet."
 msgstr "Upaya koneksi gagal. Silakan klik coba lagi dan ikuti langkah-langkah untuk terhubung di dompet Anda."
 
-#: src/components/Polling/index.tsx
-msgid "The current fast gas amount for sending a transaction on L1. Gas fees are paid in Ethereum's native currency Ether (ETH) and denominated in GWEI."
-msgstr "Jumlah gas cepat saat ini untuk mengirim transaksi di L1. Biaya gas dibayarkan dalam mata uang asli Ethereum, Ether (ETH) dan dalam mata uang GWEI."
-
 #: src/components/CurrencyInputPanel/FiatValue.tsx
 msgid "The estimated difference between the USD values of input and output amounts."
 msgstr "Perkiraan perbedaan antara nilai input dan jumlah output USD."
@@ -1857,10 +1834,6 @@ msgstr "Harga pasar di luar rentang harga yang Anda tentukan. Khusus setoran ase
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "The minimum amount you are guaranteed to receive. If the price slips any further, your transaction will revert."
 msgstr "Jumlah minimum yang dijamin akan Anda terima. Jika harga tergelincir lebih jauh, transaksi Anda akan kembali."
-
-#: src/components/Polling/index.tsx
-msgid "The most recent block number on this network. Prices update on every block."
-msgstr "Nomor blokir terbaru di jaringan ini. Harga update di setiap blok."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "The output token cannot be transferred. There may be an issue with the output token."
@@ -2088,10 +2061,6 @@ msgstr ""
 msgid "Uniswap migration contract↗"
 msgstr "Kontrak migrasi Uniswap↗"
 
-#: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Kesalahan tidak diketahui{0}. Coba tingkatkan toleransi selip Anda. Catatan: biaya transfer dan token rebase tidak sesuai dengan Uniswap V3."
-
 #: src/pages/Vote/Landing.tsx
 #: src/pages/Vote/VotePage.tsx
 msgid "Unlock Votes"
@@ -2267,10 +2236,6 @@ msgstr "Menunggu untuk terhubung"
 msgid "Wallet Address or ENS name"
 msgstr "Alamat Dompet atau nama ENS"
 
-#: src/components/MetaMaskConnectionErrorModal/index.tsx
-msgid "Wallet disconnected"
-msgstr ""
-
 #: src/constants/tokenSafety.tsx
 msgid "Warning"
 msgstr "Peringatan"
@@ -2335,10 +2300,6 @@ msgstr "Anda tidak memiliki cukup suara untuk mengirimkan proposal"
 #: src/pages/PoolFinder/index.tsx
 msgid "You don’t have liquidity in this pool yet."
 msgstr "Anda belum memiliki likuiditas di pool ini."
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "You may have lost your network connection."
-msgstr "Anda mungkin kehilangan koneksi jaringan."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."
@@ -2423,6 +2384,8 @@ msgstr "Posisi Anda tidak akan menghasilkan biaya atau digunakan dalam perdagang
 msgid "Your positions"
 msgstr "Posisi Anda"
 
+#: src/hooks/useUniversalRouter.ts
+#: src/hooks/useUniversalRouter.ts
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 msgid "Your swap was modified through your wallet. If this was a mistake, please cancel immediately or risk losing your funds."
@@ -2499,14 +2462,6 @@ msgstr "untuk"
 #: src/components/claim/AddressClaimModal.tsx
 msgid "for {0}"
 msgstr "untuk {0}"
-
-#: src/components/Polling/index.tsx
-msgid "gwei"
-msgstr "gwei"
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "here."
-msgstr "di sini."
 
 #: src/components/TransactionSettings/index.tsx
 msgid "minutes"
@@ -2616,6 +2571,11 @@ msgstr "{0}% kumpulan"
 msgid "{0}% select"
 msgstr "{0}% memilih"
 
+#: src/utils/swapErrorToUserReadableMessage.tsx
+msgid "{0}. Try increasing your slippage tolerance.\n"
+"Note: fee-on-transfer and rebase tokens are incompatible with Uniswap V3."
+msgstr ""
+
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "{0}/{1} LP NFT"
 msgstr "{0}/{1} LP NFT"
@@ -2623,10 +2583,6 @@ msgstr "{0}/{1} LP NFT"
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "{0}/{1} LP Tokens"
 msgstr "{0}/{1} Token LP"
-
-#: src/components/Polling/ChainConnectivityWarning.tsx
-msgid "{label} might be down right now, or you may have lost your network connection."
-msgstr "{label} mungkin sedang down sekarang, atau Anda mungkin kehilangan koneksi jaringan Anda."
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
 msgid "{label} token bridge"
